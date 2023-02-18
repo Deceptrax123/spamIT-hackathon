@@ -1,12 +1,25 @@
 require('dotenv').config();
 const express=require("express");
 const mongoose=require("mongoose");
+const session=require("express-session");
 const login=require("./api/login");
 const passport=require("passport");
 const app=express();
 
 
 require("./config/db")(mongoose);
+
+app.use(session({
+    secret:process.env.TOKEN,
+    resave:false,
+    saveUninitialized:true
+}));
+
+app.use(passport.initialize());
+app.use(passport.session());
+
+require("./config/passport")(passport);
+
 
 app.get("/",(req,res)=>{
     res.send("home page");
