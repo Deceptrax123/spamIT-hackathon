@@ -66,4 +66,14 @@ const postItems=async(req,res)=>{
     }
 }
 
-module.exports={getLists,postLists,getItems,postItems};
+const deleteList=async(req,res)=>{
+    try{
+        await List.findByIdAndDelete(req.params.id);
+        res.status(200).json({message:"Item Deleted"});
+    }catch(err){
+        console.log(err);
+        res.status(500).json({message:"Internal Server Error"});
+    }
+}
+
+module.exports={getLists,postLists,getItems,postItems,deleteList};
