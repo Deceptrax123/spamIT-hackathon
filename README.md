@@ -14,6 +14,3 @@
   <li>Tic Tac Toe: Feeling ultra frustrated? Here is an unbeatable Tic-Tac-Toe to remind you that life in fact is unfair, so its ok.</li>
 </ul>
 <br />
-<br />
-<br />
-<br />
