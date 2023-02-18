@@ -14,9 +14,8 @@ const userSchema=new mongoose.Schema({
         type:String,
         required:true
     },
-    passport:{
+    password:{
         type:String,
-        required:true
     }
 })
 
