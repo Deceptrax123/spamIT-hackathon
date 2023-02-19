@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
+	<head>
+		<meta http-equiv="content-type" content="text/html" charset="utf-8" />
+		<title>pomodoro</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="" >
+		<link rel="StyleSheet" href="/styles/pomodoro.css" />
+		<script src="https://secure.exportkit.com/cdn/js/ek_googlefonts.js?v=6"></script>
+		<!-- Add your custom HEAD content here -->
+
+	</head>
+	<body>
+		<div id="content-container" >
+			<div id="page_pomodoro_ek1"  >
+				<div id="_bg__pomodoro_ek2"  ></div>
+				<div id="footer"  ></div>
+
+				<div class="clock" id="js-clock">
+					<span id="js-minutes">25</span>
+					<span class="separator">:</span>
+					<span id="js-seconds">00</span>
+				  </div>
+
+				<div id="back" >
+					<div id="backbox"  ></div>
+					<img src="skins/backimage.png" id="backimage" />
+
+				</div>
+
+				<button> <div id="js-btn"> start
+
+
+				</div></button>
+
+				<div id="js-mode-buttons">
+
+					<button data-mode="longBreak"
+					class="button mode-button"
+					id="js-long-break" ><div id="longbreak"  >
+							<div id="longbreakbox"  ></div>
+							<img src="skins/longbreaktext.png" id="longbreaktext" />		
+						</div></button>
+	
+					<button data-mode="shortBreak"
+					class="button mode-button"
+					id="js-short-break"><div id="shortbreak"  >
+						<div id="shortbreakbox"  ></div>
+						<img src="skins/shortbreaktext.png" id="shortbreaktext" />
+	
+					</div></button>
+					
+	
+					<button data-mode="pomodoro"
+					class="button active mode-button"
+					id="js-pomodoro"><div id="pomodoro_ek3" >
+						<div id="pomodorobox"  ></div>
+						<img src="skins/pomodorotext.png" id="pomodorotext" />
+	
+					</div></button>
+					
+				</div>
+
+
+
+				<div id="timergroup"  >
+					<div id="timer"  ></div>
+					<img src="skins/timertext.png" id="timertext" />
+
+				</div>
+
+				<div id="header"  >
+					<div id="title"  ></div>
+					<img src="skins/titletext.png" id="titletext" />
+
+				</div>
+
+			</div>
+
+			<script type="text/javascript" src="/scripts/pomodoro.js"></script>
+		</div>
+	</body>
+</html>

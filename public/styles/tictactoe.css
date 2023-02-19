@@ -1,0 +1,203 @@
+/*
+	@name tictactoe
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 399px; width: 399px; height: 698px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+
+#page_tictactoe_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 698px;
+}
+
+#_bg__tictactoe_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 698px;
+	background:rgba(147,134,194,1);
+}
+
+
+#rectangle_3 {
+	top: 102px;
+	left: 32px;
+	width: 335px;
+	height: 51px;
+	border: 1.5px solid #000000;
+	background:rgba(205.89,192.31,255,1);
+}
+
+
+#rectangle_3_ek1 {
+	top: 672px;
+	left: 0px;
+	width: 402px;
+	height: 29px;
+	border: 1.5px solid #000000;
+	background:rgba(147,134,194,1);
+}
+
+
+#rectangle_18 {
+	top: 0px;
+	left: 0px;
+	width: 402px;
+	height: 82px;
+	border: 1.5px solid #000000;
+	-ms-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(245,233,201,1);
+}
+
+
+#image_14 {
+	top: 5px;
+	left: 111px;
+	width: 179px;
+	height: 73px;
+}
+
+
+#rectangle_19 {
+	top: 0px;
+	left: 0px;
+	width: 402px;
+	height: 82px;
+	border: 1.5px solid #000000;
+	-ms-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(147,134,194,1);
+}
+
+
+#image_22 {
+	top: 5px;
+	left: 79px;
+	width: 238.22px;
+	height: 71px;
+}
+
+
+#image_29 {
+	top: 109px;
+	left: 79px;
+	width: 238px;
+	height: 34px;
+}
+
+
+#rectangle_5 {
+	top: 601px;
+	left: 290px;
+	width: 81px;
+	height: 51px;
+	border: 1.5px solid #000000;
+	background:rgba(205.89,192.31,255,1);
+}
+
+
+#image_34 {
+	top: 605px;
+	left: 298px;
+	width: 62px;
+	height: 40px;
+}
+
+
+#rectangle_4 {
+	top: 601px;
+	left: 34px;
+	width: 221px;
+	height: 48px;
+}
+
+
+#image_39 {
+	top: 611px;
+	left: 47px;
+	width: 196px;
+	height: 29px;
+}
+
+
+#rectangle_20 {
+	top: 167px;
+	left: 29px;
+	width: 335px;
+	height: 411px;
+	background:rgba(147,134,194,1);
+}
+
+
+td{
+    border: 2px solid #333;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    cursor: pointer;    
+}
+
+table{
+    border-collapse: collapse;
+    position: relative;
+    left: 50%;
+    margin-left: -155px;
+    top: 50px;
+}
+
+table tr:first-child td{
+    border-top: 0;
+
+}
+
+table tr:last-child td {
+    border-bottom: 0;
+
+}
+
+table tr td:first-child {
+    border-left: 0;
+
+}
+
+table tr td:last-child {
+    border-right: 0;
+
+}
+
+.endgame{
+    display: none;
+    width: 200px;
+    top:120px;
+    background-color: rgb(57, 87, 57);
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
+}
+/* Add your custom CSS here */

@@ -1,18 +1,4 @@
-<!-- 
-/*
- *	This content is generated from the PSD File Info.
- *	(Alt+Shift+Ctrl+I).
- *
- *	@desc 		
- *	@file 		archives
- *	@date 		Sunday 19th of February 2023 12:10:57 PM
- *	@title 		Page 1
- *	@author 	
- *	@keywords 	
- *	@generator 	Export Kit v1.3.figma
- *
-*/
- -->
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" >
 	<head>
@@ -38,7 +24,8 @@
 				<div id="rectangle_13"  >
 					<%spams.forEach(function(spam){%>
 						<ul>
-							<a href="/stories/<%=spam._id %>"><%=spam.name %></a>
+							<%=spam.content %>
+							<hr>
 						</ul>
 					<%}) %>
 				</div>

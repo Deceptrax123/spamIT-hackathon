@@ -1,0 +1,228 @@
+/*
+	@name pomodoro
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 399px; width: 399px; height: 698px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+
+#page_pomodoro_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 698px;
+}
+
+#_bg__pomodoro_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 698px;
+	background:rgba(167,179,112,1);
+}
+
+
+#footer {
+	top: 672px;
+	left: 0px;
+	width: 402px;
+	height: 29px;
+	border: 1.5px solid #000000;
+	background:rgba(167,179,112,1);
+}
+
+#back {
+	top: 600px;
+	left: 289px;
+	width: 78px;
+	height: 48px;
+}
+
+#backbox {
+	top: 0px;
+	left: 0px;
+	width: 81px;
+	height: 51px;
+	border: 1.5px solid #000000;
+	background:rgba(210,220,161,1);
+}
+
+
+#backimage {
+	top: 5px;
+	left: 5px;
+	width: 67px;
+	height: 38px;
+}
+
+#js-btn {
+	top: 617px;
+	left: 35px;
+	width: 221px;
+	height: 40px;
+	padding-top: 5px;
+	background-color:rgba(210,220,161,1) ;
+}
+
+#resetbox {
+	top: 0px;
+	left: 0px;
+	width: 224px;
+	height: 51px;
+	border: 1.5px solid #000000;
+	background:rgba(210,220,161,1);
+}
+
+
+#resettext {
+	top: 10px;
+	left: 6px;
+	width: 205px;
+	height: 26px;
+}
+
+#longbreak{
+	top: 547px;
+	left: 204px;
+	width: 160px;
+	height: 40px;
+}
+
+#longbreakbox {
+	top: 0px;
+	left: 0px;
+	width: 163px;
+	height: 43px;
+	border: 1.5px solid #000000;
+	background:rgba(210,220,161,1);
+}
+
+
+#longbreaktext {
+	top: 3px;
+	left: 6px;
+	width: 147px;
+	height: 34px;
+}
+
+#shortbreak {
+	top: 547px;
+	left: 35px;
+	width: 160px;
+	height: 40px;
+}
+
+#shortbreakbox {
+	top: 0px;
+	left: 0px;
+	width: 163px;
+	height: 43px;
+	border: 1.5px solid #000000;
+	background:rgba(210,220,161,1);
+}
+
+
+#shortbreaktext {
+	top: 7px;
+	left: 7px;
+	width: 146px;
+	height: 27px;
+}
+
+#pomodoro_ek3 {
+	top: 495px;
+	left: 35px;
+	width: 332px;
+	height: 40px;
+}
+
+#pomodorobox {
+	top: 0px;
+	left: 0px;
+	width: 335px;
+	height: 43px;
+	border: 1.5px solid #000000;
+	background:rgba(210,220,161,1);
+}
+
+
+#pomodorotext {
+	top: 5px;
+	left: 95px;
+	width: 134px;
+	height: 30px;
+}
+
+#timergroup {
+	top: 104px;
+	left: 35px;
+	width: 332px;
+	height: 48px;
+}
+
+#timer {
+	top: 0px;
+	left: 0px;
+	width: 335px;
+	height: 51px;
+	border: 1.5px solid #000000;
+	background:rgba(209.64,220.15,161.44,1);
+}
+
+
+#timertext {
+	top: 0px;
+	left: 76px;
+	width: 153px;
+	height: 48px;
+}
+
+#header {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 79px;
+}
+
+#title {
+	top: 0px;
+	left: 0px;
+	width: 402px;
+	height: 82px;
+	border: 1.5px solid #000000;
+	-ms-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(167,179,112,1);
+}
+
+
+#titletext {
+	top: 4px;
+	left: 90px;
+	width: 220.43px;
+	height: 71px;
+}
+
+.clock {
+    margin-top: 70%;
+	margin-left: 25%;
+    margin-bottom: 30px;
+    font-size: 5em;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    font-family: arial, sans-serif;
+  }
+
+
+/* Add your custom CSS here */

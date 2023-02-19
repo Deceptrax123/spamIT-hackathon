@@ -44,7 +44,7 @@ const postStory=async(req,res)=>{
         const spam=await new Spam({
             content:content,
         }).save();
-        res.status(200).json({message:"Content added"});
+        res.redirect("/stories");
     }catch(err){
         console.log(err);
         res.status(500).send("Internal Server Error");

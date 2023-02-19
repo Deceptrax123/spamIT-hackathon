@@ -1,0 +1,153 @@
+/*
+	@name spam
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 399px; width: 399px; height: 698px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+
+#page_spam_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 698px;
+}
+
+#_bg__spam_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 698px;
+	background:rgba(204,137,137,1);
+}
+
+
+#rectangle_3 {
+	top: 108px;
+	left: 35px;
+	width: 335px;
+	height: 51px;
+	border: 1.5px solid #000000;
+	background:rgba(231.84,177.74,177.74,1);
+}
+
+
+#rectangle_3_ek1 {
+	top: 672px;
+	left: 0px;
+	width: 402px;
+	height: 29px;
+	border: 1.5px solid #000000;
+	background:rgba(204,137,137,1);
+}
+
+
+#rectangle_14 {
+	top: 0px;
+	left: 0px;
+	width: 402px;
+	height: 82px;
+	border: 1.5px solid #000000;
+	-ms-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(245,233,201,1);
+}
+
+
+#rectangle_15 {
+	top: 0px;
+	left: 0px;
+	width: 402px;
+	height: 82px;
+	border: 1.5px solid #000000;
+	-ms-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(204,137,137,1);
+}
+
+
+#image_24 {
+	top: 0px;
+	left: 89px;
+	width: 233px;
+	height: 79px;
+}
+
+
+#rectangle_17 {
+	top: 603px;
+	left: 76px;
+	width: 224px;
+	height: 51px;
+	border: 1.5px solid #000000;
+	background:rgba(231.84,177.74,177.74,1);
+}
+
+
+#rectangle_18 {
+	top: 603px;
+	left: 18px;
+	width: 50px;
+	height: 51px;
+	border: 1.5px solid #000000;
+	background:rgba(231.84,177.74,177.74,1);
+}
+
+
+#rectangle_5 {
+	top: 604px;
+	left: 308px;
+	width: 78px;
+	height: 50px;
+	border: 1.5px solid #000000;
+	background:rgba(231.84,177.74,177.74,1);
+}
+
+
+#image_32 {
+	top: 607px;
+	left: 313px;
+	width: 66px;
+	height: 42px;
+}
+
+
+#image_37 {
+	top: 610px;
+	left: 99px;
+	width: 166px;
+	height: 30px;
+}
+
+
+#image_43 {
+	top: 605px;
+	left: 25px;
+	width: 33px;
+	height: 45px;
+}
+
+
+#image_27 {
+	top: 112px;
+	left: 138px;
+	width: 124px;
+	height: 42px;
+}
+
+
+
+/* Add your custom CSS here */
