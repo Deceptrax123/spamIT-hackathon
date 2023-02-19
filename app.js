@@ -4,6 +4,7 @@ const mongoose=require("mongoose");
 const session=require("express-session");
 const login=require("./api/login");
 const todo=require("./api/todo");
+const spam=require("./api/spamIt");
 const passport=require("passport");
 const app=express();
 
@@ -27,6 +28,7 @@ app.get("/",(req,res)=>{
 })
 app.use("/",login);
 app.use("/",todo);
+app.use("/",spam);
 
 app.listen(3000,()=>{
     console.log("Server running on port 3000");
