@@ -1,7 +1,5 @@
 <h1> SpamIt </h1> 
-<br />
 <h3>SpamIt is a small window on your Chrome Tab. Just click on it, and spam right away! </h3> 
-<br />
 <br />
 <h5>We thought of this as a way to rant, spam whatever thoughts we are getting while working/studying etc. </h5> 
 <br />
