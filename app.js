@@ -6,6 +6,7 @@ const login=require("./api/login");
 const todo=require("./api/todo");
 const spam=require("./api/spamIt");
 const passport=require("passport");
+const ejs=require("ejs");
 const app=express();
 
 
@@ -17,14 +18,16 @@ app.use(session({
     saveUninitialized:true
 }));
 
+app.set("view engine","ejs");
 app.use(passport.initialize());
 app.use(passport.session());
+app.use(express.static("public"));
 
 require("./config/passport")(passport);
 
 
 app.get("/",(req,res)=>{
-    res.send("home page");
+    res.render("home");
 })
 app.use("/",login);
 app.use("/",todo);

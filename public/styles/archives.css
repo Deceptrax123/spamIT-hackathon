@@ -1,0 +1,163 @@
+/*
+	@name archives
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 399px; width: 399px; height: 698px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+
+#page_archives_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 698px;
+}
+
+#_bg__archives_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 698px;
+	background:rgba(110,151,184,1);
+}
+
+
+#rectangle_3 {
+	top: 108px;
+	left: 34px;
+	width: 335px;
+	height: 51px;
+	border: 1.5px solid #000000;
+	background:rgba(168,191,211,1);
+}
+
+
+#rectangle_3_ek1 {
+	top: 672px;
+	left: 0px;
+	width: 402px;
+	height: 29px;
+	border: 1.5px solid #000000;
+	background:rgba(110,151,184,1);
+}
+
+
+#rectangle_13 {
+	top: 177px;
+	left: 34px;
+	width: 335px;
+	height: 397px;
+	border: 1.5px solid #000000;
+	-ms-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:0px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(167.59,191.41,210.59,1);
+	font-size:20px;
+	font-family:Roboto Slab;
+}
+
+
+#rectangle_12 {
+	top: 0px;
+	left: 0px;
+	width: 402px;
+	height: 82px;
+	border: 1.5px solid #000000;
+	-ms-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(110,151,184,1);
+}
+
+
+#image_25 {
+	top: 8px;
+	left: 81px;
+	width: 236.96px;
+	height: 71px;
+}
+
+
+#image_27 {
+	top: 114px;
+	left: 63px;
+	width: 108px;
+	height: 37px;
+}
+
+
+#image_30 {
+	top: 114px;
+	left: 164px;
+	width: 180px;
+	height: 33px;
+}
+
+
+#rectangle_16 {
+	top: 597px;
+	left: 305px;
+	width: 80px;
+	height: 51px;
+	border: 1.5px solid #000000;
+	background:rgba(168,191,211,1);
+}
+
+
+#_rectangle_17 {
+	top: 598px;
+	left: 73px;
+	width: 224px;
+	height: 51px;
+	border: 1.5px solid #000000;
+	background:rgba(168,191,211,1);
+}
+
+
+#image_44 {
+	top: 598px;
+	left: 308px;
+	width: 74px;
+	height: 47px;
+}
+
+
+#rectangle_18 {
+	top: 598px;
+	left: 15px;
+	width: 50px;
+	height: 51px;
+	border: 1.5px solid #000000;
+	background:rgba(168,191,211,1);
+}
+
+
+#image_40 {
+	top: 604px;
+	left: 97px;
+	width: 176px;
+	height: 36px;
+}
+
+
+#image_44_ek1 {
+	top: 601px;
+	left: 23px;
+	width: 29px;
+	height: 45px;
+}
+
+
+
+/* Add your custom CSS here */

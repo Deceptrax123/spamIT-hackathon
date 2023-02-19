@@ -1,0 +1,160 @@
+/*
+	@name home
+*/
+/* Only edit this if you know what you are doing! */
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+/* Only edit this if you know what you are doing! */
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+/* Only edit this if you know what you are doing! */
+div { position: absolute; }
+
+#content-container { display: block; position: relative; width: 399px; width: 399px; height: 698px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+
+#page_home_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 698px;
+}
+
+#_bg__home_ek2 {
+	top: 0px;
+	left: 0px;
+	width: 399px;
+	height: 698px;
+	background:rgba(245,233,201,1);
+}
+
+
+#rectangle_1 {
+	top: 0px;
+	left: 0px;
+	width: 402px;
+	height: 82px;
+	border: 1.5px solid #000000;
+	-ms-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:3px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(245,233,201,1);
+}
+
+
+#rectangle_8 {
+	top: 120px;
+	left: 81px;
+	width: 239px;
+	height: 88px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	-ms-box-shadow:5px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:5px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:5px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:5px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:5px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(110,151,184,1);
+}
+
+#rectangle_9 {
+	top: 251px;
+	left: 81px;
+	width: 237px;
+	height: 86px;
+}
+
+#rectangle_9_ek1 {
+	top: 0px;
+	left: 0px;
+	width: 239px;
+	height: 88px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	-ms-box-shadow:5px 4px 4px 1px rgba(0,0,0,0.25);
+	-o-box-shadow:5px 4px 4px 1px rgba(0,0,0,0.25);
+	-webkit-box-shadow:5px 4px 4px 1px rgba(0,0,0,0.25);
+	-moz-box-shadow:5px 4px 4px 1px rgba(0,0,0,0.25);
+	box-shadow:5px 4px 4px 1px rgba(0,0,0,0.25);
+	background:rgba(204,137,137,1);
+}
+
+
+#rectangle_11 {
+	top: 391px;
+	left: 81px;
+	width: 237px;
+	height: 86px;
+}
+
+
+#rectangle_12 {
+	top: 530px;
+	left: 75px;
+	width: 237px;
+	height: 86px;
+}
+
+
+#rectangle_6 {
+	top: 672px;
+	left: 1px;
+	width: 402px;
+	height: 29px;
+	border: 1.5px solid #000000;
+	background:rgba(245,233,201,1);
+}
+
+
+#image_16 {
+	top: 4px;
+	left: 85px;
+	width: 217px;
+	height: 75px;
+}
+
+
+#image_18 {
+	top: 131px;
+	left: 124px;
+	width: 150px;
+	height: 64px;
+}
+
+
+#image_19 {
+	top: 256px;
+	left: 113px;
+	width: 177px;
+	height: 74px;
+}
+
+
+#image_20 {
+	top: 393px;
+	left: 117px;
+	width: 163px;
+	height: 77px;
+}
+
+
+#image_21 {
+	top: 548px;
+	left: 82px;
+	width: 223px;
+	height: 54px;
+}
+
+
+
+/* Add your custom CSS here */

@@ -3,9 +3,9 @@ const Spam=require("../models/spams");
 
 const getSpams=async(req,res)=>{
     try{
-        const spams=await Spam.find({userId:req.user._id});
+        const spams=await Spam.find(); //find by userid on authentication setup.
         res.status(200);
-        res.send(spams);
+        res.render("archives",{spams:spams});
     }catch(err){
         console.log(err);
         res.status(500).json({message:"Internal Server Error"});
@@ -41,7 +41,9 @@ const getStory=async(req,res)=>{
 const postStory=async(req,res)=>{
     try{
         const content=req.body.content;
-        await Spam.findByIdAndUpdate(req.params.id,{content:content});
+        const spam=await new Spam({
+            content:content,
+        }).save();
         res.status(200).json({message:"Content added"});
     }catch(err){
         console.log(err);
@@ -49,4 +51,9 @@ const postStory=async(req,res)=>{
     }
 };
 
-module.exports={getSpams,postSpams,getStory,postStory};
+const postStorypage=(req,res)=>{
+    res.status(200);
+    res.render("rant");
+}
+
+module.exports={getSpams,postSpams,getStory,postStory,postStorypage};

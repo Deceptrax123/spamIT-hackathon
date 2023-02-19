@@ -6,11 +6,9 @@ const spamSchema=new mongoose.Schema({
     },
     name:{
         type:String,
-        required:true
     },
     category:{
         type:String,
-        required:true
     },
     content:{
         type:String,
